@@ -11,13 +11,15 @@ setup instructions-
 2. cd KS-OPTIMISER
 
 in windows-
-3. python -m venv venv
-4. venv\Scripts\activate
+
+1. python -m venv venv
+2. venv\Scripts\activate
+
 in mac or linux-
-5. python3 -m venv venv,
-6. source venv/bin/activate,
-7. pip install -r requirements.txt
-8. uvicorn app.main:app 
+1. python3 -m venv venv,
+2. source venv/bin/activate,
+3. pip install -r requirements.txt
+4. uvicorn app.main:app 
 
 with docker -
 1. docker build -t ks-optimizer .
