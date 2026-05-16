@@ -7,19 +7,19 @@ output screenshots
 setup instructions-
 inside cmd run 
 
-1. git clone https://github.com/satishdahare88/KS-OPTIMISER.git
+1. git clone https://github.com/satishdahare88/KS-OPTIMISER.git,
   cd KS-OPTIMISER
 
-2.in windows
-    python -m venv venv
+2.in windows-
+    python -m venv venv,
     venv\Scripts\activate
-  in mac or linux
-    python3 -m venv venv
-    source venv/bin/activate
-3. pip install -r requirements.txt
-4. uvicorn app.main:app 
+  in mac or linux-
+    python3 -m venv venv,
+    source venv/bin/activate,
+3. pip install -r requirements.txt,
+4. uvicorn app.main:app ,
 
-with docker 
-1. docker build -t ks-optimizer .
+with docker -
+1. docker build -t ks-optimizer .,
 2. docker run -p 8000:8000 ks-optimizer
 
