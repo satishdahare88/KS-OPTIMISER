@@ -1,0 +1,9 @@
+	
+[
+  {
+    "deployment": "api-service",
+    "recommended_cpu": 270,
+    "recommended_memory": 1050,
+    "reason": "Average usage significantly below requested resources"
+  }
+]
